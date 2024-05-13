@@ -18,6 +18,10 @@ def chooseFunction():
         print("กรุณาเลือกให้ถูกต้อง!")
         chooseFunction()
     
+def birthdayValue():
+    print("คุณเกิดวันอะไร[จันทร์(0), อังคาร(1), พุธ(2), พฤหัส(3), ศุกร์(4), เสาร์(5), อาทิตย์(6), พุธกลางคืน(7)")
+    day = input("ฉันเกิด : ")
+
 
 def StringCheck():
     pass
