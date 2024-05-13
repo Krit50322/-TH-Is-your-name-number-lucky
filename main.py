@@ -10,8 +10,17 @@ def chooseFunction():
         while (x != 1) or (x != 2):
             print("กรุณาเลือกให้ถูกต้อง!")
             chooseFunction()
+        if x == 1:
+            StringCheck()
+        else:
+            numCheck()
     except:
         print("กรุณาเลือกให้ถูกต้อง!")
         chooseFunction()
     
 
+def StringCheck():
+    pass
+
+def numCheck():
+    pass
