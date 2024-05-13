@@ -4,4 +4,14 @@ def welcomeMes():
     print("เบอร์โทร/เลขต่างๆ กด 2")
 
 
+def chooseFunction():
+    try:
+        x = int(input("ฉันเลือก : "))
+        while (x != 1) or (x != 2):
+            print("กรุณาเลือกให้ถูกต้อง!")
+            chooseFunction()
+    except:
+        print("กรุณาเลือกให้ถูกต้อง!")
+        chooseFunction()
+    
 
